@@ -1,5 +1,5 @@
 package projectpkl
 
-func SayHi() string {
-	return "Hi World"
+func SayHi(name string) string {
+	return "Hi World" + name
 }
